@@ -62,7 +62,7 @@ export function Process() {
               <div className="mb-6 inline-flex items-center justify-center w-16 h-16 rounded-full bg-secondary border border-border">
                 {step.icon}
               </div>
-              <h3 className="text-xl font-bold mb-3">0{index + 1}. {step.title}</h3>
+              <h3 className="text-xl font-bold mb-3">{step.title}</h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 {step.description}
               </p>
