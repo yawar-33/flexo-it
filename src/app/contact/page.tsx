@@ -53,7 +53,7 @@ export default function ContactPage() {
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="bg-card border border-white/10 rounded-2xl p-8 shadow-xl"
+          className="bg-card border border-black/10 dark:border-white/10 rounded-2xl p-8 shadow-xl"
         >
           <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
             <div className="grid grid-cols-2 gap-6">
@@ -63,7 +63,7 @@ export default function ContactPage() {
                   id="firstName"
                   type="text"
                   placeholder="John"
-                  className="w-full px-4 py-3 rounded-lg bg-background border border-white/10 focus:border-primary/50 focus:ring-2 focus:ring-primary/20 outline-none transition-all placeholder:text-muted-foreground/50"
+                  className="w-full px-4 py-3 rounded-lg bg-background border border-black/10 dark:border-white/10 focus:border-primary/50 focus:ring-2 focus:ring-primary/20 outline-none transition-all placeholder:text-muted-foreground/50"
                 />
               </div>
               <div className="space-y-2">
@@ -72,7 +72,7 @@ export default function ContactPage() {
                   id="lastName"
                   type="text"
                   placeholder="Doe"
-                  className="w-full px-4 py-3 rounded-lg bg-background border border-white/10 focus:border-primary/50 focus:ring-2 focus:ring-primary/20 outline-none transition-all placeholder:text-muted-foreground/50"
+                  className="w-full px-4 py-3 rounded-lg bg-background border border-black/10 dark:border-white/10 focus:border-primary/50 focus:ring-2 focus:ring-primary/20 outline-none transition-all placeholder:text-muted-foreground/50"
                 />
               </div>
             </div>
@@ -93,7 +93,7 @@ export default function ContactPage() {
                 id="message"
                 rows={4}
                 placeholder="Tell us about your project..."
-                className="w-full px-4 py-3 rounded-lg bg-background border border-white/10 focus:border-primary/50 focus:ring-2 focus:ring-primary/20 outline-none transition-all resize-none placeholder:text-muted-foreground/50"
+                className="w-full px-4 py-3 rounded-lg bg-background border border-black/10 dark:border-white/10 focus:border-primary/50 focus:ring-2 focus:ring-primary/20 outline-none transition-all resize-none placeholder:text-muted-foreground/50"
               />
             </div>
 
